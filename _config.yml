@@ -1,5 +1,5 @@
 # Site settings
-title: Beware the The Blog
+title: Beware The Blog
 email: njemanuel01@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
