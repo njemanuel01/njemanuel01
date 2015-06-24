@@ -7,14 +7,14 @@ categories: code
 
 #ORM
 
-An ORM (object relational mapping) is a way to transfer data between incompatible type systems.  In my case, it's a way to transfter data back and forth from Ruby and SQL.  My particular ORM uses instance and class methods that allow the user to:
+An ORM (object relational mapping) is a way to transfer data between incompatible type systems.  In my case, it's a way to transfer data back and forth from Ruby and SQL.  My particular ORM uses instance and class methods in Ruby modules that allow the user to:
 
     -add rows to SQL tables
     -see entries in SQL tables
     -update rows in SQL tables
     -delete rows in SQL tables
 
-##### all
+###all
 
 In particular, the all class method allows ruby to access all of the rows in a particular SQL table:
 
