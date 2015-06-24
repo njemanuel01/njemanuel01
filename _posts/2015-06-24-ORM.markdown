@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "ORM"
+date:   2015-06-24
+categories: code
+---
+
+#ORM
+
+An ORM (object relational mapping) is a way to transfer data between incompatible type systems.  In my case, it's a way to transfter data back and forth from Ruby and SQL.  My particular ORM uses instance and class methods that allow the user to:
+
+    -add rows to SQL tables
+    -see entries in SQL tables
+    -update rows in SQL tables
+    -delete rows in SQL tables
+
+##### all
+
+In particular, the all class method allows ruby to access all of the rows in a particular SQL table:
+
+```ruby
+def all
+  table_name = self.to_s.pluralize.underscore
+  
+  results = CONNECTION.execute("SELECT * FROM #{table_name}")
+  results_as_objects = []
+  results.each do |results_hash|
+    results_as_objects << self.new(results_hash)
+  end
+
+  return results_as_objects
+end
+```
+
+The connection to the database returns all of the rows in the stated table as an Array of Hashes.  The following ruby code:
+
+```ruby
+results_as_objects = []
+results.each do |results_hash|
+  results_as_objects << self.new(results_hash)
+end
+```
+turns that Array of Hashes into an Array of objects.  The object's attributes correspond to the table's columns.  So in essence each object in the Array corresponds directly to a row of information in the SQL table.
