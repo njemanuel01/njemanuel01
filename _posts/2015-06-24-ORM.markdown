@@ -2,7 +2,7 @@
 layout: post
 title:  "ORM"
 date:   2015-06-24
-categories: code
+categories: article
 ---
 
 #ORM
