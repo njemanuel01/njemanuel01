@@ -19,8 +19,8 @@ Given our definition of creation, a creator would need to be an existing thing t
 ##What would it be like to create something with free will?
 What if your program could make a choice while it was running?  Not the kind of pseudo choice your program does *random* but the kind of choice that happens when you come to a fork in the road and you go left and not right (or you choose to say and finish your coding work when everyone else is headed for the bar). The kind of choice that leaves the "end" for which your wrote your program up for grabs because the logical structure you imposed on it can now be thrown out the window.  For a real world example of this, try getting a four year old girl dressed and ready for the morning (thanks Maria) and see what happens with your perfect program.  What if your creations were just as unruly?  How would that change you as the creator?  Would you grow to love your creations even more, or despise them for the pain they've put you through?  Questions for another time...
 
-##Questions to reflect and comment on:
+##Questions to reflect on:
 1.  Are we an instance of creation?
 2.  For those who said yes to #1, why?  And before you answer because it's in the Bible, go back to Genesis and reread all that goes on there in Creation.  There is so much more if you really ponder/pray about it.
-3.  For who who said no, why not?  If we ourselves are not created, where does our creative nature come from?  For that matter, where does our existence come from?  (I'm no being combative here, I really would like to hear your honest answer)
-4.  If we as humans are free, free to choose, free to create, how does that free will affect Creation? 
+3.  For who who said no, why not?  If we ourselves are not created, where does our creative nature come from?  For that matter, where does our existence come from?
+4.  If we as humans are free, free to choose, free to create, how does that free will affect creation? 

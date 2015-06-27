@@ -6,7 +6,7 @@ categories: code
 ---
 
 # Rock Paper Scissors Lizard Spock
-I built a program to execute a game of "Rock, Paper, Scissors, Lizard, Spock."  The game can be played against the computer or against another user.  I use the GamerDriver class to run the game, the Matches class to run each match of the game, the Player class to create instances of human players, and the ComputerPlayer class to create an instance of a computer player if one is required.
+I built a program to execute a game of "Rock, Paper, Scissors, Lizard, Spock."  The game is run in terminal and can be played against the computer or against another user.  I use the GamerDriver class to run the game, the Matches class to run each match of the game, the Player class to create instances of human players, and the ComputerPlayer class to create an instance of a computer player if one is required.
 
 ##app.rb
 This file determines if the user wants to play a game of "Rock, Paper, Scissors, Lizard, Spock" and checks the user's input to make sure it is valid.  If the user wants to start a game, it calls the GameDriver class to start a new game, if not, the program ends.
